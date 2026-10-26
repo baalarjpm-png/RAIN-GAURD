@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>RainGuard - Smart Rainfall & Flood Alert System</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>RainGuard</h1>
+    <p>Smart Rainfall & Flood Alert System - Guayaquil, Ecuador</p>
+  </header>
+
+  <section id="controls">
+    <button data-mode="live" class="on">Live rain</button>
+    <button data-mode="10">Moderate (demo)</button>
+    <button data-mode="30">Heavy (demo)</button>
+    <button data-mode="55">Extreme (demo)</button>
+  </section>
+
+  <div id="alert"></div>
+  <div id="map"></div>
+  <section id="info">Tap a zone on the map to see safety advice and the safest route to the hospital.</section>
+
+  <footer>Demo with sample data. Rain data: Open-Meteo. Map: Leaflet + OpenStreetMap.</footer>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
