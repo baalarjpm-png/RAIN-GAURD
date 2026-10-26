@@ -1,0 +1,11 @@
+body { font-family: system-ui, sans-serif; margin: 0; background: #f4f7fb; color: #12202f; }
+header { background: #1d6fd6; color: #fff; padding: 10px 14px; }
+header h1 { margin: 0; font-size: 22px; }
+header p { margin: 2px 0 0; font-size: 13px; opacity: .9; }
+#controls { padding: 8px 10px; display: flex; gap: 6px; flex-wrap: wrap; }
+#controls button { border: 1px solid #b9c7d6; background: #fff; border-radius: 18px; padding: 6px 12px; cursor: pointer; }
+#controls button.on { background: #1d6fd6; color: #fff; border-color: #1d6fd6; }
+#alert { margin: 0 10px 8px; padding: 10px 12px; border-left: 6px solid #2e9e5b; background: #fff; border-radius: 6px; }
+#map { height: 55vh; margin: 0 10px; border-radius: 10px; }
+#info { margin: 10px; padding: 12px; background: #fff; border-radius: 10px; }
+footer { font-size: 12px; color: #5b6b7c; text-align: center; padding: 10px; }
